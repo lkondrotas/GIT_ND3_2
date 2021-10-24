@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    font-family: 'Barlow Condensed';
 }
 
 nav{
@@ -25,4 +26,33 @@ nav a{
     float: right;
     margin: 15px 0;
     padding: 0 5px;
+}
+
+section{
+    display: flex;
+    padding: 50px 120px;
+    flex-wrap: wrap;
+}
+
+.block_1{
+    flex:30%;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.block_1 h3{
+    color: crimson;
+    padding-bottom: 15px;
+}
+
+.block_1 .btn_cart1{
+    padding: 14px 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.block_1 .btn_cart1:hover{
+    background-color: rgb(218, 218, 218);
+    transition: 200ms;
 }
