@@ -119,10 +119,12 @@ section{
     .block_1{
         margin: 30px 0;
         padding: 0;
+        flex:100%;
     }
 
     .block_2{
         margin: 30px 0;
         padding: 30px 0;
+        flex:100%;
     }
 }
