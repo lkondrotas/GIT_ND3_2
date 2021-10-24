@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barlow Condensed';
+}
+
+nav{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 80px;
+}
+
+nav .logo{
+    float: left;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+nav a{
+    float: right;
+    margin: 15px 0;
+    padding: 0 5px;
+}
+
+section{
+    display: flex;
+    padding: 50px 120px;
+    flex-wrap: wrap;
+}
+
+.block_1{
+    flex:30%;
+    margin: 30px 10px;
+    text-align: center;
+}
+
+.block_1 h3{
+    color: crimson;
+    padding-bottom: 15px;
+}
+
+.block_1 .btn_cart1{
+    padding: 14px 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.block_1 .btn_cart1:hover{
+    background-color: rgb(218, 218, 218);
+    transition: 200ms;
+}
+
+#second{
+    background-color: rgb(226, 226, 226);
+}
+
+.block_2 {
+    padding: 15px;
+    flex:30%;
+    margin: 30px 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.block_2 h2, .block_2 h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block_2 h4{
+    flex: 50%;
+    margin: auto;
+    color: rgb(81, 119, 235);
+    font-size: 20px;
+}
+
+.block_2 .btn_cart2{
+    flex: 50%;
+    padding: 14px 40px;
+    background-color: rgb(81, 119, 235);
+    color: white;
+    text-decoration: none;
+    transition: 200ms;
+}
+
+.block_2 .btn_cart2:hover{
+    background-color: rgb(24, 53, 141);
+    transition: 200ms;
+}
