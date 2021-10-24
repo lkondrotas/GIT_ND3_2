@@ -28,6 +28,10 @@ nav a{
     padding: 0 5px;
 }
 
+nav img{
+    max-height: 20px;
+}
+
 section{
     display: flex;
     padding: 50px 120px;
