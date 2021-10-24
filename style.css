@@ -5,3 +5,24 @@
 body{
     margin: 0;
 }
+
+nav{
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 0 80px;
+}
+
+nav .logo{
+    float: left;
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+nav a{
+    float: right;
+    margin: 15px 0;
+    padding: 0 5px;
+}
